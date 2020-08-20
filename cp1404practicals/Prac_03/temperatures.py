@@ -1,6 +1,6 @@
 """
 CP1404/CP5632 - Practical
-Temperatures fixed code
+Converts celsius to fahrenheit and fahrenheit to celsius
 """
 
 MENU = """C - Convert Celsius to Fahrenheit

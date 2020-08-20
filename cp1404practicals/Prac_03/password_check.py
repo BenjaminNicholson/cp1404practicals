@@ -1,3 +1,8 @@
+"""
+Benjamin Nicholson CP1404
+Gets a password then prints an asterisk as long as the password
+"""
+
 LENGTH = 10
 
 
