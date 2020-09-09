@@ -14,9 +14,9 @@ def main():
     get_name = input("Name: ")
 
     while get_name != "":
-        year = int(input("Year: "))
-        cost = input("Cost: ")
-        add_guitar = Guitar(get_name, year, cost)
+        get_year = int(input("Year: "))
+        get_cost = input("Cost: ")
+        add_guitar = Guitar(get_name, get_year, get_cost)
         guitars.append(add_guitar)
         print(add_guitar, "added")
         get_name = input("Name: ")
@@ -28,11 +28,11 @@ def main():
         guitars.sort()
         print("These are my guitars!")
         for i, guitar in enumerate(guitars):
-            vintage_status = ""
+            vintage = ""
             if guitar.is_vintage():
-                vintage_status = "(vintage)"
+                vintage = "(vintage)"
             print("Guitar {0}: {1.name:>20} ({1.year}), worth ${1.cost:<10}\
-            {2}".format(i + 1, guitar, vintage_status))
+            {2}".format(i + 1, guitar, vintage))
     else:
         print("No guitars ")
 
