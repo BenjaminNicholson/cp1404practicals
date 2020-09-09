@@ -1,5 +1,5 @@
 """
-CP1404 Practical
+CP1404 Prac_06
 Guitar Class
 Benjamin Nicholson
 """

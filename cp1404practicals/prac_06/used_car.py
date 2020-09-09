@@ -1,6 +1,6 @@
 """
-CP1404 Practical
-Used_car test
+CP1404 Prac_06
+Used_car testing
 Benjamin Nicholson
 """
 # Note that the import has a folder (module) in it.

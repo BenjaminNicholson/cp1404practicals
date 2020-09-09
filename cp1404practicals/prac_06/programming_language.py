@@ -1,3 +1,9 @@
+"""
+CP1404 Prac_06
+Class Programming language
+Benjamin Nicholson
+"""
+
 class ProgrammingLanguage:
 
     def __init__(self, field, typing, reflection, year):

@@ -1,3 +1,9 @@
+"""
+CP1404 Prac_06
+Languages
+Benjamin Nicholson
+"""
+
 from prac_06.programming_language import ProgrammingLanguage
 
 ruby = ProgrammingLanguage("Ruby", "Dynamic", True, 1995)

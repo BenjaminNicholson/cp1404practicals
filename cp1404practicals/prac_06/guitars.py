@@ -1,6 +1,6 @@
 """
-CP1404 Practical
-Guitars
+CP1404 Prac_06
+Guitars collection
 Benjamin Nicholson
 """
 
