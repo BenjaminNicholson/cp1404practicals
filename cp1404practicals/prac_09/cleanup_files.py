@@ -35,8 +35,17 @@ def main():
 
 def get_fixed_filename(filename):
     """Return a 'fixed' version of filename."""
-    new_name = filename.replace(" ", "_").replace(".TXT", ".txt")
-    return new_name
+    filename = filename.replace(" ", "_").replace(".TXT", ".txt").replace(".Txt", ".txt").title()
+    previous_character = ""
+    new_name = ""
+    for character in filename:
+        if character.isupper() and previous_character.isalpha():
+            new_name += "_"
+        if not previous_character.isalpha() and previous_character != "'":
+            character = character.upper()
+        new_name += character
+        previous_character = character
+    return new_name.replace(".TXT", ".txt")
 
 
 def demo_walk():
